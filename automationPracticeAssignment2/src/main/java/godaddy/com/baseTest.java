@@ -1,31 +1,30 @@
 package godaddy.com;
 
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class seleniumSetup {
-
+public class baseTest{
+	
 	protected WebDriver driver;
 	
-	void setupWebDriverForTesting(WebDriver driver) {
-		this.driver = driver;
-	}
-
+	@BeforeClass
 	public void setUpTest() {
 		//setting Chrome driver from Maven  
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.navigate().to("https://www.godaddy.com/");
+		driver.manage().window().maximize();
 	}
 	
-	public void quitDriver() {
+	@AfterClass
+	public void teardown () {
 		//setting Chrome driver to quit after finishing all tests
-		driver.close();
 		driver.quit();
 		System.out.println("Test Completed");
 	}

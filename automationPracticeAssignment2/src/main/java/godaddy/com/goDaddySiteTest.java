@@ -6,7 +6,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class goDaddySiteTest extends seleniumSetup{
+public class goDaddySiteTest extends baseTest{
+
 
 	@BeforeClass
 	public void setUpTest() {
@@ -58,6 +59,6 @@ public class goDaddySiteTest extends seleniumSetup{
 
 	@AfterClass
 	public void finishTest() {
-		super.quitDriver();
+		super.teardown();
 	}		
 }
