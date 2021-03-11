@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9234" started-at="2021-03-11T10:36:05 IST" finished-at="2021-03-11T10:36:14 IST">
+  <suite name="Default suite" duration-ms="10195" started-at="2021-03-11T14:07:31 IST" finished-at="2021-03-11T14:07:41 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9234" started-at="2021-03-11T10:36:05 IST" finished-at="2021-03-11T10:36:14 IST">
+    <test name="Default test" duration-ms="10195" started-at="2021-03-11T14:07:31 IST" finished-at="2021-03-11T14:07:41 IST">
       <class name="godaddy.com.goDaddySiteTest">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="setUpTest" is-config="true" duration-ms="5766" started-at="2021-03-11T10:36:05 IST" finished-at="2021-03-11T10:36:11 IST">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:godaddy.com.goDaddySiteTest@1b68ddbd]" name="setUpTest" is-config="true" duration-ms="5527" started-at="2021-03-11T14:07:31 IST" finished-at="2021-03-11T14:07:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="reSizeWindow()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="reSizeWindow" duration-ms="727" started-at="2021-03-11T10:36:11 IST" finished-at="2021-03-11T10:36:12 IST">
+        <test-method status="PASS" signature="reSizeWindow()[pri:0, instance:godaddy.com.goDaddySiteTest@1b68ddbd]" name="reSizeWindow" duration-ms="1541" started-at="2021-03-11T14:07:37 IST" finished-at="2021-03-11T14:07:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reSizeWindow -->
-        <test-method status="PASS" signature="testPageSource()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="testPageSource" duration-ms="586" started-at="2021-03-11T10:36:12 IST" finished-at="2021-03-11T10:36:12 IST">
+        <test-method status="PASS" signature="testPageSource()[pri:0, instance:godaddy.com.goDaddySiteTest@1b68ddbd]" name="testPageSource" duration-ms="663" started-at="2021-03-11T14:07:38 IST" finished-at="2021-03-11T14:07:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPageSource -->
-        <test-method status="PASS" signature="testPageTitle()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="testPageTitle" duration-ms="416" started-at="2021-03-11T10:36:12 IST" finished-at="2021-03-11T10:36:13 IST">
+        <test-method status="PASS" signature="testPageTitle()[pri:0, instance:godaddy.com.goDaddySiteTest@1b68ddbd]" name="testPageTitle" duration-ms="353" started-at="2021-03-11T14:07:39 IST" finished-at="2021-03-11T14:07:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPageTitle -->
-        <test-method status="FAIL" signature="testPageURL()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="testPageURL" duration-ms="167" started-at="2021-03-11T10:36:13 IST" finished-at="2021-03-11T10:36:13 IST">
+        <test-method status="FAIL" signature="testPageURL()[pri:0, instance:godaddy.com.goDaddySiteTest@1b68ddbd]" name="testPageURL" duration-ms="220" started-at="2021-03-11T14:07:39 IST" finished-at="2021-03-11T14:07:39 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://www.godaddy.com/] but found [https://il.godaddy.com/en]]]>
@@ -36,7 +36,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at godaddy.com.goDaddySiteTest.testPageURL(goDaddySiteTest.java:34)
+at godaddy.com.goDaddySiteTest.testPageURL(goDaddySiteTest.java:35)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -71,11 +71,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPageURL -->
-        <test-method status="PASS" signature="validateDescriptionInPageSource()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="validateDescriptionInPageSource" duration-ms="130" started-at="2021-03-11T10:36:13 IST" finished-at="2021-03-11T10:36:13 IST">
+        <test-method status="PASS" signature="validateDescriptionInPageSource()[pri:0, instance:godaddy.com.goDaddySiteTest@1b68ddbd]" name="validateDescriptionInPageSource" duration-ms="361" started-at="2021-03-11T14:07:39 IST" finished-at="2021-03-11T14:07:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDescriptionInPageSource -->
-        <test-method status="FAIL" signature="validateTitleInPageSource()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="validateTitleInPageSource" duration-ms="138" started-at="2021-03-11T10:36:13 IST" finished-at="2021-03-11T10:36:13 IST">
+        <test-method status="FAIL" signature="validateTitleInPageSource()[pri:0, instance:godaddy.com.goDaddySiteTest@1b68ddbd]" name="validateTitleInPageSource" duration-ms="214" started-at="2021-03-11T14:07:40 IST" finished-at="2021-03-11T14:07:40 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -86,7 +86,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at godaddy.com.goDaddySiteTest.validateTitleInPageSource(goDaddySiteTest.java:47)
+at godaddy.com.goDaddySiteTest.validateTitleInPageSource(goDaddySiteTest.java:49)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -121,10 +121,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitleInPageSource -->
-        <test-method status="PASS" signature="finishTest()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="finishTest" is-config="true" duration-ms="1191" started-at="2021-03-11T10:36:13 IST" finished-at="2021-03-11T10:36:14 IST">
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:godaddy.com.goDaddySiteTest@1b68ddbd]" name="finishTest" is-config="true" duration-ms="1236" started-at="2021-03-11T14:07:40 IST" finished-at="2021-03-11T14:07:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:godaddy.com.goDaddySiteTest@1b68ddbd]" name="teardown" is-config="true" duration-ms="1" started-at="2021-03-11T14:07:41 IST" finished-at="2021-03-11T14:07:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- godaddy.com.goDaddySiteTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

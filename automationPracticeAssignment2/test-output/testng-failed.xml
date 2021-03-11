@@ -7,6 +7,7 @@
         <methods>
           <include name="finishTest"/>
           <include name="testPageURL"/>
+          <include name="teardown"/>
           <include name="validateTitleInPageSource"/>
           <include name="setUpTest"/>
         </methods>
