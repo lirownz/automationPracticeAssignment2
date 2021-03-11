@@ -9,9 +9,9 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">6,304</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">9,234</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">godaddy.com.goDaddySiteTest</td><td><a href="#m0">testPageURL</a></td><td rowspan="1">1615386614450</td><td rowspan="1">6</td></tr><tr class="failedeven"><td><a href="#m1">validateTitleInPageSource</a></td><td rowspan="1">1615386614523</td><td rowspan="1">71</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">godaddy.com.goDaddySiteTest</td><td><a href="#m2">reSizeWindow</a></td><td rowspan="1">1615386613719</td><td rowspan="1">589</td></tr><tr class="passedeven"><td><a href="#m3">testPageSource</a></td><td rowspan="1">1615386614311</td><td rowspan="1">127</td></tr><tr class="passedeven"><td><a href="#m4">testPageTitle</a></td><td rowspan="1">1615386614440</td><td rowspan="1">9</td></tr><tr class="passedeven"><td><a href="#m5">validateDescriptionInPageSource</a></td><td rowspan="1">1615386614458</td><td rowspan="1">64</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">godaddy.com.goDaddySiteTest</td><td><a href="#m0">testPageURL</a></td><td rowspan="1">1615451773316</td><td rowspan="1">167</td></tr><tr class="failedeven"><td><a href="#m1">validateTitleInPageSource</a></td><td rowspan="1">1615451773621</td><td rowspan="1">138</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">godaddy.com.goDaddySiteTest</td><td><a href="#m2">reSizeWindow</a></td><td rowspan="1">1615451771530</td><td rowspan="1">727</td></tr><tr class="passedeven"><td><a href="#m3">testPageSource</a></td><td rowspan="1">1615451772309</td><td rowspan="1">586</td></tr><tr class="passedeven"><td><a href="#m4">testPageTitle</a></td><td rowspan="1">1615451772898</td><td rowspan="1">416</td></tr><tr class="passedeven"><td><a href="#m5">validateDescriptionInPageSource</a></td><td rowspan="1">1615451773489</td><td rowspan="1">130</td></tr></tbody>
 </table>
 <h2>Default test</h2><h3 id="m0">godaddy.com.goDaddySiteTest#testPageURL</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [https://www.godaddy.com/] but found [https://il.godaddy.com/en]
 	at org.testng.Assert.fail(Assert.java:99)
@@ -21,10 +21,10 @@
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
 	at godaddy.com.goDaddySiteTest.testPageURL(goDaddySiteTest.java:34)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
 	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
@@ -33,7 +33,7 @@
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
 	at org.testng.TestRunner.privateRun(TestRunner.java:764)
 	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
@@ -56,10 +56,10 @@
 	at org.testng.Assert.assertTrue(Assert.java:45)
 	at org.testng.Assert.assertTrue(Assert.java:55)
 	at godaddy.com.goDaddySiteTest.validateTitleInPageSource(goDaddySiteTest.java:47)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
 	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
@@ -68,7 +68,7 @@
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
 	at org.testng.TestRunner.privateRun(TestRunner.java:764)
 	at org.testng.TestRunner.run(TestRunner.java:585)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-10T16:30:09 IST" name="Default suite" finished-at="2021-03-10T16:30:15 IST" duration-ms="6304">
+  <suite name="Default suite" duration-ms="9234" started-at="2021-03-11T10:36:05 IST" finished-at="2021-03-11T10:36:14 IST">
     <groups>
     </groups>
-    <test started-at="2021-03-10T16:30:09 IST" name="Default test" finished-at="2021-03-10T16:30:15 IST" duration-ms="6304">
+    <test name="Default test" duration-ms="9234" started-at="2021-03-11T10:36:05 IST" finished-at="2021-03-11T10:36:14 IST">
       <class name="godaddy.com.goDaddySiteTest">
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:godaddy.com.goDaddySiteTest@8317c52]" started-at="2021-03-10T16:30:09 IST" name="setUpTest" finished-at="2021-03-10T16:30:13 IST" duration-ms="4181" status="PASS">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="setUpTest" is-config="true" duration-ms="5766" started-at="2021-03-11T10:36:05 IST" finished-at="2021-03-11T10:36:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="reSizeWindow()[pri:0, instance:godaddy.com.goDaddySiteTest@8317c52]" started-at="2021-03-10T16:30:13 IST" name="reSizeWindow" finished-at="2021-03-10T16:30:14 IST" duration-ms="589" status="PASS">
+        <test-method status="PASS" signature="reSizeWindow()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="reSizeWindow" duration-ms="727" started-at="2021-03-11T10:36:11 IST" finished-at="2021-03-11T10:36:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reSizeWindow -->
-        <test-method signature="testPageSource()[pri:0, instance:godaddy.com.goDaddySiteTest@8317c52]" started-at="2021-03-10T16:30:14 IST" name="testPageSource" finished-at="2021-03-10T16:30:14 IST" duration-ms="127" status="PASS">
+        <test-method status="PASS" signature="testPageSource()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="testPageSource" duration-ms="586" started-at="2021-03-11T10:36:12 IST" finished-at="2021-03-11T10:36:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPageSource -->
-        <test-method signature="testPageTitle()[pri:0, instance:godaddy.com.goDaddySiteTest@8317c52]" started-at="2021-03-10T16:30:14 IST" name="testPageTitle" finished-at="2021-03-10T16:30:14 IST" duration-ms="9" status="PASS">
+        <test-method status="PASS" signature="testPageTitle()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="testPageTitle" duration-ms="416" started-at="2021-03-11T10:36:12 IST" finished-at="2021-03-11T10:36:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPageTitle -->
-        <test-method signature="testPageURL()[pri:0, instance:godaddy.com.goDaddySiteTest@8317c52]" started-at="2021-03-10T16:30:14 IST" name="testPageURL" finished-at="2021-03-10T16:30:14 IST" duration-ms="6" status="FAIL">
+        <test-method status="FAIL" signature="testPageURL()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="testPageURL" duration-ms="167" started-at="2021-03-11T10:36:13 IST" finished-at="2021-03-11T10:36:13 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://www.godaddy.com/] but found [https://il.godaddy.com/en]]]>
@@ -37,10 +37,10 @@ at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
 at godaddy.com.goDaddySiteTest.testPageURL(goDaddySiteTest.java:34)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
@@ -49,7 +49,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
 at org.testng.TestRunner.privateRun(TestRunner.java:764)
 at org.testng.TestRunner.run(TestRunner.java:585)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
@@ -71,11 +71,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPageURL -->
-        <test-method signature="validateDescriptionInPageSource()[pri:0, instance:godaddy.com.goDaddySiteTest@8317c52]" started-at="2021-03-10T16:30:14 IST" name="validateDescriptionInPageSource" finished-at="2021-03-10T16:30:14 IST" duration-ms="64" status="PASS">
+        <test-method status="PASS" signature="validateDescriptionInPageSource()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="validateDescriptionInPageSource" duration-ms="130" started-at="2021-03-11T10:36:13 IST" finished-at="2021-03-11T10:36:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDescriptionInPageSource -->
-        <test-method signature="validateTitleInPageSource()[pri:0, instance:godaddy.com.goDaddySiteTest@8317c52]" started-at="2021-03-10T16:30:14 IST" name="validateTitleInPageSource" finished-at="2021-03-10T16:30:14 IST" duration-ms="71" status="FAIL">
+        <test-method status="FAIL" signature="validateTitleInPageSource()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="validateTitleInPageSource" duration-ms="138" started-at="2021-03-11T10:36:13 IST" finished-at="2021-03-11T10:36:13 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -87,10 +87,10 @@ at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
 at godaddy.com.goDaddySiteTest.validateTitleInPageSource(goDaddySiteTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
@@ -99,7 +99,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
 at org.testng.TestRunner.privateRun(TestRunner.java:764)
 at org.testng.TestRunner.run(TestRunner.java:585)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
@@ -121,7 +121,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitleInPageSource -->
-        <test-method is-config="true" signature="finishTest()[pri:0, instance:godaddy.com.goDaddySiteTest@8317c52]" started-at="2021-03-10T16:30:14 IST" name="finishTest" finished-at="2021-03-10T16:30:15 IST" duration-ms="1225" status="PASS">
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:godaddy.com.goDaddySiteTest@33f88ab]" name="finishTest" is-config="true" duration-ms="1191" started-at="2021-03-11T10:36:13 IST" finished-at="2021-03-11T10:36:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishTest -->

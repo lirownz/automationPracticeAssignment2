@@ -43,21 +43,21 @@ public class goDaddySiteTest extends seleniumSetup{
 	@Test
 	public void validateTitleInPageSource() {
 		//checking if page source contain the page title
+		// using "boolean Assert True" to check if page source contain the wanted string
 		boolean titleInPageSource = driver.getPageSource().contains("Domain Names, Websites, Hosting & Online Marketing Tools - GoDaddy IL");
 		Assert.assertTrue(titleInPageSource);
-
 	}
+	
 	@Test
 	public void validateDescriptionInPageSource() {
-		//checking if page source contain the page title
+		//checking if page source contain the page Description
+		// using "boolean Assert True" to check if page source contain the wanted string
 		boolean descriptionInPageSource = driver.getPageSource().contains("GoDaddy offers domain names, web hosting, online marketing, phone services, web design and an easy to use website builder.");
 		Assert.assertTrue(descriptionInPageSource);
 	}
 
 	@AfterClass
 	public void finishTest() {
-		driver.close();
-		driver.quit();
-		System.out.println("Test Completed");
+		super.quitDriver();
 	}		
 }
